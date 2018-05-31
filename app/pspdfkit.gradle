@@ -1,0 +1,8 @@
+project.ext.pspdfkit_version = "3.0.0"
+project.ext.pspdfkit_version_code = 57766
+
+dependencies {
+    compile "com.pspdfkit:pspdfkit:${project.pspdfkit_version}@aar"
+    compile 'io.reactivex.rxjava2:rxjava:2.0.8'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ item_kiosk_item.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2017 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp">
+
+    <ImageView
+        android:id="@+id/itemPreviewImageView"
+        android:layout_width="100dp"
+        android:layout_height="143dp"
+        android:contentDescription="@null"
+        />
+
+    <TextView
+        android:id="@+id/itemTileView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:minLines="2"/>
+
+</LinearLayout>
